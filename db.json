@@ -1,0 +1,80 @@
+{
+    "admins": [
+        {
+            "id": 1,
+            "primeiroNome": "John",
+            "sobrenome": "Doe",
+            "senha": "secret1",
+            "fotoDePerfil": "fotoAdmin1.jpg",
+            "email": "john@gmail.com"
+        }
+    ],
+    "alunos": [
+        {
+            "id": 1,
+            "primeiroNome": "José",
+            "sobrenome": "Silva",
+            "senha": "secret1",
+            "fotoDePerfil": "fotoSilva.jpg",
+            "email": "silva@gmail.com",
+            "modalidadeId": 1,
+            "presencaId": 1,
+            "inadimplente": false,
+            "mesesInadimplente": 0,
+            "dataDeInscricao": "02/02/2023"
+        },
+        {
+            "id": 2,
+            "primeiroNome": "Dias",
+            "sobrenome": "Gomes",
+            "senha": "secret1",
+            "fotoDePerfil": "fotoGomes.jpg",
+            "email": "gomes@gmail.com",
+            "modalidadeId": 1,
+            "presencaId": 1,
+            "inadimplente": false,
+            "mesesInadimplente": 0,
+            "dataDeInscricao": "02/02/2023"
+        }
+    ],
+    "modalidades": [
+        {
+            "id": 1,
+            "nomeModalidade": "Natação 1",
+            "horario": "09:30",
+            "dias": ["Segunda", "Quarta"],
+            "dataDeCriacao": "03/02/2023"
+        },
+        {
+            "id": 1,
+            "nomeModalidade": "Yoga 1",
+            "horario": "10:30",
+            "dias": ["Terça", "Quarta"],
+            "dataDeCriacao": "03/02/2023"   
+        }
+    ],
+    "comprovantes": [
+        {
+            "id": 1,
+            "alunoId": 1,
+            "urlFoto": "http://servidor.image.jpg",
+            "mes": 2,
+            "ano": 2023   
+        },
+        {
+            "id": 2,
+            "alunoId": 1,
+            "urlFoto": "http://servidor.image2.jpg",
+            "mes": 3,
+            "ano": 2023   
+        }
+    ],
+    "presencas": [
+        {
+            "id": 1,
+            "dataDaPresenca": "01/02/2023",
+            "modalidade": "Natação"
+        }
+    ]
+
+}
